@@ -1,0 +1,56 @@
+/*ヘッダー部分
+h1を中央揃え
+フォントをイタリック体（斜体）
+影つける
+
+背景色をlightgreen
+ボックスの余白（padding）の指定10px
+ボーダーの角丸の指定
+ボックスのマージンの指定,bottom:10px
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+
+header h1{
+	font-style: italic;
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+}
+
+header{
+	background-color: lightgreen;
+	padding:10px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+}
+
+/*ナビ部分
+背景色：
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+nav{
+	background-color: lightblue;
+	padding:10px;
+	border-radius: 7px;
+	width:145px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+/*メイン部分
+
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+main{
+	background-color: lightgreen;
+	padding:10px;
+	border-radius: 7px;
+	margin-left: 180px;
+	margin-bottom: 10px;
+}
+
+/*フッター部分
+
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+footer{
+	background-color: lightgreen;
+	padding:10px;
+	border-radius: 7px;
+	clear: both;
+}
