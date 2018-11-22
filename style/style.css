@@ -23,7 +23,12 @@ header{
 }
 
 /*ナビ部分
-背景色：
+背景色：lightblue
+ボックスの余白：１０ｐｘ
+角丸：７ｐｘ
+幅：１４５ｐｘ
+マージン：bottom:10px
+浮動化：left
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 nav{
 	background-color: lightblue;
@@ -35,18 +40,25 @@ nav{
 }
 
 /*メイン部分
-
+背景色：lightgreen
+余白１０ｐｘ
+角丸７ｐｘ
+マージンleft１８０ｐｘ
+マージンbottom１０ｐｘ
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-main{
+/*main{
 	background-color: lightgreen;
 	padding:10px;
 	border-radius: 7px;
 	margin-left: 180px;
 	margin-bottom: 10px;
 }
-
+*/
 /*フッター部分
-
+背景色lightgreen
+余白１０ｐｘ
+角丸７ｐｘ
+clear both;
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 footer{
 	background-color: lightgreen;
