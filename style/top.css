@@ -1,11 +1,11 @@
-
 /*ボディ部分
 背景色を#ffffed
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+/*
 body p{
-	background-color: #ffffed;
+	background-color: #ffffff;
 }
-
+*/
 /*ヘッダー部分
 フォントをイタリック体（斜体）
 h1を中央揃え
@@ -17,6 +17,20 @@ header h1{
 		text-shadow: 2px 2px 2px gray;
 }
 
+/*
+背景色をlightgreen
+ボックスの余白（padding）の指定10px
+ボーダーの角丸の指定
+ボックスのマージンの指定,bottom:10px
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+
+header{
+	background-color: lightgreen;
+	padding:10px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+}
+
 /*セクション部分
 フォントサイズを1.1
 フォントをゴシック体へ
@@ -25,9 +39,121 @@ header h1{
 section{
 	font-size: 1.1em;
 	font-family: sans-serif;
-	color: darkblue;
+	color: black;
 }
 
+
+/* メインコンテンツ */
+main {
+padding: 10px 20px 10px;
+font-family: sans-serif;
+}
+main h1,main h2 {
+font-size: 1.3em;
+margin-top: 1.2em;
+}
+main p {
+margin-left: 20px;
+}
+
+
+/*コメントアウト
 nav{
 	background-color: rgba(107, 255, 243, 0.63);
+}*/
+
+/*ナビ部分
+背景色：lightblue
+ボックスの余白：１０ｐｘ
+角丸：７ｐｘ
+幅：１４５ｐｘ
+マージン：bottom:10px
+浮動化：left
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+
+nav{
+	background-color: lightblue;
+	padding:10px;
+	border-radius: 7px;
+	width:145px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+/* サイドメニュー */
+nav {
+flex: 0 0 140px;
+padding-top: 15px;
+border-right: 1px solid #666666;
+}
+ul#menu {
+border-top:1px solid #666666;
+margin: 12px;
+padding: 0px;
+}
+ul#menu li {
+list-style-type: none;
+}
+ul#menu li a {
+display: block;
+line-height: 2.2;
+text-decoration: none;
+font-size: 0.9em;
+font-family: sans-serif;
+color: black;
+border-bottom: 1px solid #666666;
+padding-left: 5px;
+}
+ul#menu a:hover {
+color: white;
+background-color: #333333;
+}
+
+
+/*メイン部分
+背景色：lightgreen
+余白１０ｐｘ
+角丸７ｐｘ
+マージンleft１８０ｐｘ
+マージンbottom１０ｐｘ
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+article {
+	background-color: #6ebf7f;
+	padding:10px;
+	border-radius: 7px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+/*セクション部分
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+section {
+	background-color: #6ebf7f;
+	padding:10px;
+	border-radius: 7px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+/*フッター部分
+背景色lightgreen
+余白１０ｐｘ
+角丸７ｐｘ
+clear both;
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+footer{
+	background-color: lightgreen;
+	padding:10px;
+	border-radius: 7px;
+	clear: both;
+}
+
+/*インラインフレーム*/
+main.inline{
+	padding: 0px;
+	min-width: 580px;
+}
+iframe　#maincontenr{
+	height:700px;
+	width:100%;
+	border:none;
 }
