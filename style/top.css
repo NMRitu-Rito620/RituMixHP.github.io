@@ -1,11 +1,11 @@
 /*ボディ部分
 背景色を#ffffed
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-/*
-body p{
-	background-color: #ffffff;
+
+body {
+	background-color: rgb(84, 147, 89);
 }
-*/
+
 /*ヘッダー部分
 フォントをイタリック体（斜体）
 h1を中央揃え
@@ -72,7 +72,7 @@ nav{
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 
 nav{
-	background-color: lightblue;
+	background-color: #D1E0D2;
 	padding:10px;
 	border-radius: 7px;
 	width:145px;
@@ -119,7 +119,7 @@ background-color: #333333;
 マージンbottom１０ｐｘ
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 article {
-	background-color: #6ebf7f;
+	background-color: white;
 	padding:10px;
 	border-radius: 7px;
 	margin-left: 200px;
@@ -128,7 +128,7 @@ article {
 /*セクション部分
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 section {
-	background-color: #6ebf7f;
+	background-color: white;
 	padding:10px;
 	border-radius: 7px;
 	margin-left: 200px;
@@ -141,7 +141,7 @@ section {
 clear both;
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 footer{
-	background-color: lightgreen;
+	background-color: #D1E0D2;
 	padding:10px;
 	border-radius: 7px;
 	clear: both;
