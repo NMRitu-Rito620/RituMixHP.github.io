@@ -8,18 +8,17 @@ h1を中央揃え
 ボーダーの角丸の指定
 ボックスのマージンの指定,bottom:10px
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-
-header h1{
-	font-style: italic;
-	text-align: center;
-	text-shadow: 2px 2px 2px gray;
+header h1 {
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
 }
 
-header{
-	background-color: lightgreen;
-	padding:10px;
-	border-radius: 7px;
-	margin-bottom: 10px;
+header {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
 
 /*ナビ部分
@@ -30,13 +29,13 @@ header{
 マージン：bottom:10px
 浮動化：left
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-nav{
-	background-color: lightblue;
-	padding:10px;
-	border-radius: 7px;
-	width:145px;
-	margin-bottom: 10px;
-	float: left;
+nav {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 7px;
+  width: 145px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 /*メイン部分
@@ -60,9 +59,9 @@ nav{
 角丸７ｐｘ
 clear both;
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-footer{
-	background-color: lightgreen;
-	padding:10px;
-	border-radius: 7px;
-	clear: both;
+footer {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 7px;
+  clear: both;
 }
