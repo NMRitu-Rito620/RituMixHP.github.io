@@ -1,0 +1,65 @@
+
+
+/*ヘッダー部分
+フォントをイタリック体（斜体）
+h1を中央揃え
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+header h1 {
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
+}
+
+body {
+  background-color: rgb(84, 147, 89);
+}
+
+
+div#container {
+  background-color:#D1E0D2;
+  min-width: 900px;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+header {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #D1E0D2;
+  padding: 10px;
+  border-radius: 7px;
+  width: 145px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+main {
+
+  padding: 10px;
+  border-radius: 7px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color:  #D1E0D2;
+  padding: 10px;
+  border-radius: 7px;
+  clear: both;
+}
+
+main.inline {
+  padding: 0px;
+  min-width: 580px;
+}
+
+iframe#maincontenr {
+  height: 700px;
+  width: 100%;
+  border: none;
+}
