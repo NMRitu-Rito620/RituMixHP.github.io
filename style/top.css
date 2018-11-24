@@ -1,8 +1,13 @@
 /*ボディ部分
-背景色を#ffffed
+背景色の変更
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 body {
   background-color: rgb(84, 147, 89);
+}
+
+body p#psetumei {
+  background-color: vec4(0.32, 0.71, 0.51, 0.87);
+
 }
 
 /*ヘッダー部分
