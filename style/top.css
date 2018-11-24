@@ -10,15 +10,6 @@ body p#psetumei {
 
 }
 
-/*ヘッダー部分
-フォントをイタリック体（斜体）
-h1を中央揃え
-＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-header h1 {
-  font-style: italic;
-  text-align: center;
-  text-shadow: 2px 2px 2px gray;
-}
 
 /*
 背景色をlightgreen
@@ -38,12 +29,13 @@ header {
 フォントをゴシック体へ
 文字色をdarkblue
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
-section {
+/*section {
+    border-radius: 7px;
   font-size: 1.1em;
   font-family: sans-serif;
   color: black;
 }
-
+*/
 /* メインコンテンツ */
 main {
   padding: 10px 20px 10px;
@@ -71,6 +63,7 @@ nav{
 マージン：bottom:10px
 浮動化：left
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
+/*
 nav {
   background-color: #D1E0D2;
   padding: 10px;
@@ -82,6 +75,7 @@ nav {
 }
 
 /* サイドメニュー */
+/*
 nav {
   flex: 0 0 140px;
   padding-top: 15px;
@@ -122,20 +116,22 @@ ul#menu a:hover {
 マージンbottom１０ｐｘ
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 article {
+    border-radius: 7px;
   background-color: white;
   padding: 10px;
   border-radius: 7px;
-  margin-left: 200px;
+  margin-left: 0px;
   margin-bottom: 10px;
 }
 
 /*セクション部分
 ＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋*/
 section {
+    border-radius: 7px;
   background-color: white;
   padding: 10px;
   border-radius: 7px;
-  margin-left: 200px;
+  margin-left: 0px;
   margin-bottom: 10px;
 }
 
