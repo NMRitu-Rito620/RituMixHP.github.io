@@ -1,5 +1,3 @@
-
-
 /*ヘッダー部分
 フォントをイタリック体（斜体）
 h1を中央揃え
@@ -14,9 +12,8 @@ body {
   background-color: rgb(84, 147, 89);
 }
 
-
 div#container {
-  background-color:#D1E0D2;
+  background-color: #D1E0D2;
   min-width: 900px;
   max-width: 900px;
   margin: 0px auto;
@@ -39,7 +36,6 @@ nav {
 }
 
 main {
-
   padding: 10px;
   border-radius: 7px;
   margin-left: 180px;
@@ -47,7 +43,7 @@ main {
 }
 
 footer {
-  background-color:  #D1E0D2;
+  background-color: #D1E0D2;
   padding: 10px;
   border-radius: 7px;
   clear: both;
