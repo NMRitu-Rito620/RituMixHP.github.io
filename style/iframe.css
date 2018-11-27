@@ -27,10 +27,12 @@ header {
 }
 
 nav {
+  font-size: 18px;
+  line-height: 50px;
   background-color: #D1E0D2;
   padding: 10px;
   border-radius: 7px;
-  width: 145px;
+  width: 150px;
   margin-bottom: 10px;
   float: left;
 }
