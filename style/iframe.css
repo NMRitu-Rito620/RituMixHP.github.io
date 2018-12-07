@@ -9,7 +9,7 @@ header h1 {
 }
 
 body {
-  background-color: rgb(84, 147, 89);
+  background-color: rgb(42, 94, 66);
 }
 
 div#container {
@@ -29,7 +29,7 @@ header {
 nav {
   font-size: 18px;
   line-height: 50px;
-  background-color: #D1E0D2;
+  background-color: #AAC89F;
   padding: 10px;
   border-radius: 7px;
   width: 150px;
