@@ -6,11 +6,14 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129768709-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-129768709-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129768709-1');
+  </script>
 
   <meta charset="utf-8">
   <meta name="author" content="梨都" />
@@ -31,15 +34,19 @@
       <h1>梨都のMIX依頼所DAZO☆</h1>
     </header>
     <nav>
-      <ul id="menu">
-        <a href="./toppage.html" target="maincontenr">トップページ</a><br>
-        <a href="./profile.html" target="maincontenr">プロフィール</a><br>
-        <a href="./setumei.html" target="maincontenr">依頼の仕方</a><br>
-        <!--<li><a href="./sakuhin.html" target="maincontenr">過去作の一覧表になる予定</a></li>-->
-        <a href="./reportP.html" target="maincontenr">活動ページ</a>
-      </ul>
+      <div id="menu">
+        <li><a href="./toppage.html" target="maincontenr">トップページ</a>
+        </li>
+        <li><a href="./profile.html" target="maincontenr">プロフィール</a>
+        </li>
+        <li><a href="./setumei.html" target="maincontenr">依頼の仕方</a>
+          <!--<li><a href="./sakuhin.html" target="maincontenr">過去作の一覧表になる予定</a></li>-->
+        </li>
+        <li><a href="./reportP.html" target="maincontenr">活動ページ</a>
+        </li>
+      </div>
     </nav>
-    <main class = "inline">
+    <main class="inline">
       <iframe id="maincontenr" name="maincontenr" src="./toppage.html"></iframe>
       <!--
     <article>
